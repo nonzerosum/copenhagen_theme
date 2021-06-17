@@ -616,6 +616,13 @@ ul {
   margin-right: 15px;
 }
 
+/* Sizing MC logo */
+
+.footer .company-info img {
+  width: 78px;
+  margin: 0 auto 15px;
+}
+
 .form .suggestion-list {
   font-size: 13px;
   margin-top: 30px;
