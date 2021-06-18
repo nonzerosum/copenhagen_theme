@@ -616,14 +616,6 @@ ul {
   margin-right: 15px;
 }
 
-/* Sizing MC logo 
-
-.footer .company-info img {
-  width: 78px;
-  margin: 0 auto 15px;
-} */
-
-
 .form .suggestion-list {
   font-size: 13px;
   margin-top: 30px;
@@ -1219,7 +1211,7 @@ ul {
 }
 
 .search-full input[type="search"] {
-  border: 1px solid #fff;
+  border: 1px solid #4b88a2;
 }
 
 .search-icon {
