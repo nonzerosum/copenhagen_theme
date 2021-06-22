@@ -1426,13 +1426,7 @@ ul {
 }
 
 .block-list {
-  display: flex;
-  justify-content: center;
-} 
-
-.block-list ul {
-  display: flex;
-  justify-content: flex-start;
+  justify-content: left /* Not working */
 }
 
 /***** Homepage *****/
