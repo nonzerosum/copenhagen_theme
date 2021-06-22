@@ -1425,8 +1425,10 @@ ul {
   margin-top: 10px;
 }
 
-.block-item {
-  justify-content: left;
+.block-list {
+  display: flex;
+  flex: 0.9;
+  justify-content: flex-start;
 } 
 
 /***** Homepage *****/
