@@ -1215,7 +1215,7 @@ ul {
 }
 
 .search-icon {
-  position: relative;
+  position: right;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
