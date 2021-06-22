@@ -1215,11 +1215,11 @@ ul {
 }
 
 .search-icon {
-  position: right;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
-  left: 15px;
+  right: 15px /*left: 15px;*/
   z-index: 1;
   width: 18px;
   height: 18px;
