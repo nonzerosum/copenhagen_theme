@@ -1372,7 +1372,7 @@ ul {
 }
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
-  color: #ffffff /*$brand_text_color;*/
+  color: #ffffff00 /*$brand_text_color;*/
   text-decoration: none;
 }
 
