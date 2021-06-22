@@ -1376,6 +1376,10 @@ ul {
   text-decoration: none;
 } */
 
+.block-list {
+  justify-content: left;
+} 
+
 .blocks-item-internal {
   background-color: transparent;
   border: 1px solid #ddd;
