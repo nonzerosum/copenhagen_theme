@@ -1367,9 +1367,9 @@ ul {
   }
 }
 
-.blocks-item:hover, .blocks-item:focus, .blocks-item:active {
-  background-color: #fff /*$brand_color;*/
-}
+/* .blocks-item:hover, .blocks-item:focus, .blocks-item:active {
+  background-color: *$brand_color;
+}*/
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
   color: $brand_text_color;
