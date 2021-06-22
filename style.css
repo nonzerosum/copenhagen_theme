@@ -1368,11 +1368,11 @@ ul {
 }
 
 .blocks-item:hover, .blocks-item:focus, .blocks-item:active {
-  background-color: $brand_color;
+  background-color: #fff /*$brand_color;*/
 }
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
-  color: #ffffff00 /*$brand_text_color;*/
+  color: $brand_text_color;
   text-decoration: none;
 }
 
