@@ -1371,10 +1371,10 @@ ul {
   background-color: *$brand_color;
 }*/
 
-.blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
+/* .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
   color: $brand_text_color;
   text-decoration: none;
-}
+} */
 
 .blocks-item-internal {
   background-color: transparent;
