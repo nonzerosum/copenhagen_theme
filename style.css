@@ -1465,6 +1465,10 @@ ul {
     "FAQs Solutions";
 }
 
+.home-container > div {
+  border: 1px #ced0ce;
+}
+
 .Knowledge-Base { grid-area: Knowledge-Base; }
 
 .Video-Tutorials { grid-area: Video-Tutorials; }
