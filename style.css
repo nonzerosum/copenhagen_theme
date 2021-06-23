@@ -232,8 +232,7 @@ a:hover, a:active, a:focus {
   text-decoration: underline;
 }
 
-input,
-textarea {
+input, textarea {
   color: #000;
   font-size: 14px;
 }
@@ -270,7 +269,7 @@ select {
 }
 
 select:focus {
-  border: 1px solid $brand_color;
+  border: 1px solid #ced0ce;
 }
 
 select::-ms-expand {
@@ -1468,7 +1467,7 @@ ul {
 
 .home-container > div {
   background-color: white;
-  padding: 20px;
+  padding: px;
 }
 
 .Knowledge-Base { grid-area: Knowledge-Base; }
