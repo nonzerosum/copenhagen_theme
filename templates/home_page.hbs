@@ -4,7 +4,7 @@
   <!--<h1 class="welcome-message">Hi, how can we help?</h1> -->
   <div class="hero-inner">
     <h2 class="visibility-hidden">{{ t 'Start typing here...' }}</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 72 72" class="search-icon" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
       <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
       <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
     </svg>
@@ -14,22 +14,33 @@
 
 <div class="container">
   <section class="section knowledge-base">
+    
     <h2 class="visibility-hidden">{{ t 'categories' }}</h2>
+
     <section class="categories blocks">
-      <ul class="blocks-list">
 
-        <li class="blocks-item">
-          <a href='#' class="blocks-item-link">
-            <h4 class="blocks-item-title">Knowledge Base</h4><br>
-            <ul class="block-list">
-              <li class="block-item">Getting Started</li>
-              <li class="block-item">Becoming a MetaCompliance Master</li>
-              <li class="block-item">Administration</li>
-              <li class="block-item">Guides</li>
-            </ul>
+      <div class="section-links"> <!-- flex -->
 
-          </a>
-        </li>
+      <div class="links-container">
+        <div class="links-group" href="https://support.metacompliance.com">
+          <div class="group-label">Knowledge Base</div>
+          <ul class="blocks-list"> <!-- links -->
+
+            <li class="blocks-item">
+              <a href="https://support.metacompliance.com" class="blocks-item-link">Getting Started</a>
+            </li>
+            <li class="blocks-item">
+              <a href="https://support.metacompliance.com" class="blocks-item-link">MyCompliance Mastery</a>
+            </li>
+            <li class="blocks-item">
+              <a href="https://support.metacompliance.com" class="blocks-item-link">Administration</a>
+            </li>
+            <li class="blocks-item">
+              <a href="https://support.metacompliance.com" class="blocks-item-link">Guides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
          <li class="blocks-item">
           <a href='#' class="blocks-item-link">
@@ -91,6 +102,7 @@
         {{/each --}}
       </ul>
       {{pagination}}
+       </div>
     </section>
 
     {{#if promoted_articles}}
