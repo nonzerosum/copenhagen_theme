@@ -1455,6 +1455,7 @@ ul {
 
 .home-container {
   display: grid;
+  background-color: #ced0ce;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
@@ -1466,7 +1467,7 @@ ul {
 }
 
 .home-container > div {
-  border: 1px #ced0ce;
+  background-color: white;
 }
 
 .Knowledge-Base { grid-area: Knowledge-Base; }
