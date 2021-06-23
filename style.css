@@ -1447,7 +1447,11 @@ ul {
 
 .section-links {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 22px;
+
 }
+
 
 /***** Promoted articles *****/
 .promoted-articles {
