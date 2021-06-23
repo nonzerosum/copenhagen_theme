@@ -1455,11 +1455,11 @@ ul {
 
 .home-container {
   display: grid;
+  grid-auto-flow: column;
   background-color: #ced0ce;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
+  gap: 2px 2px;
   justify-content: start;
   grid-template-areas:
     "Knowledge-Base Video-Tutorials"
