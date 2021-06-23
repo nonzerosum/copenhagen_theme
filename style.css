@@ -1445,6 +1445,10 @@ ul {
   text-align: center;
 }
 
+.section-links {
+  display: flex;
+}
+
 /***** Promoted articles *****/
 .promoted-articles {
   display: flex;
