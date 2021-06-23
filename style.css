@@ -1453,6 +1453,27 @@ ul {
 
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: start;
+  grid-template-areas:
+    "Knowledge-Base Video-Tutorials"
+    "FAQs Solutions";
+}
+
+.Knowledge-Base { grid-area: Knowledge-Base; }
+
+.Video-Tutorials { grid-area: Video-Tutorials; }
+
+.FAQs { grid-area: FAQs; }
+
+.Solutions { grid-area: Solutions; }
+
+
 
 /***** Promoted articles *****/
 .promoted-articles {
