@@ -1468,6 +1468,7 @@ ul {
 
 .home-container > div {
   background-color: white;
+  padding: 15px;
 }
 
 .Knowledge-Base { grid-area: Knowledge-Base; }
